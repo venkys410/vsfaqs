@@ -1,0 +1,36 @@
+/* Write your code here. */
+.app-container {
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.page-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.app-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: #cb8805;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .app-heading {
+    font-size: 46px;
+  }
+}
+.questions-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
